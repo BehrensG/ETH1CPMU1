@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -14,15 +14,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ETH1CPMU1:AD9835 M?
-U 1 1 5DCF1748
-P 4800 3250
-F 0 "M?" H 4800 4315 50  0000 C CNN
-F 1 "AD9835" H 4800 4224 50  0000 C CNN
-F 2 "TSSOP16" H 4830 3400 20  0001 C CNN
-F 3 "" H 4800 3250 50  0001 C CNN
-	1    4800 3250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

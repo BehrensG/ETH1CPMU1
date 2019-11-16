@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -169,18 +169,6 @@ Wire Wire Line
 Connection ~ 5200 1400
 Wire Wire Line
 	5200 1400 5200 1350
-Text Label 5000 1200 0    50   ~ 0
-A
-Text Label 5000 1400 0    50   ~ 0
-B
-Text Label 5000 1600 0    50   ~ 0
-C
-Text Label 5000 1800 0    50   ~ 0
-D
-Text Label 5000 2000 0    50   ~ 0
-E
-Text Label 5000 2200 0    50   ~ 0
-F
 Wire Wire Line
 	5250 5150 5200 5150
 Wire Wire Line
@@ -278,4 +266,16 @@ Text HLabel 5200 3950 0    50   BiDi ~ 0
 EXT_TRIG
 Wire Wire Line
 	5200 3950 5250 3950
+Text HLabel 5000 1200 0    50   BiDi ~ 0
+A
+Text HLabel 5000 1400 0    50   BiDi ~ 0
+B
+Text HLabel 5000 1600 0    50   BiDi ~ 0
+C
+Text HLabel 5000 1800 0    50   BiDi ~ 0
+D
+Text HLabel 5000 2000 0    50   BiDi ~ 0
+E
+Text HLabel 5000 2200 0    50   BiDi ~ 0
+F
 $EndSCHEMATC
