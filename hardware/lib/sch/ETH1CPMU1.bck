@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5324
+D 2.5 V to 5.5 V, 500 μA, Quad Voltage Output 8-/10-/12-Bit DACs in 10-Lead Packages
+$ENDCMP
+#
 $CMP AD5520
 D Per Pin Parametric Measurement Unit/Source Measure Unit
 $ENDCMP
@@ -8,8 +12,16 @@ $CMP AD5791
 D 1 ppm 20-Bit, ±1 LSB INL, Voltage Output DAC
 $ENDCMP
 #
+$CMP AD603
+D Low Noise, 90 MHz Variable Gain Amplifier
+$ENDCMP
+#
 $CMP AD8010
 D 200 mA Output Current High-Speed Amplifier
+$ENDCMP
+#
+$CMP AD8039
+D Low Power, 350 MHz Voltage Feedback Amplifiers
 $ENDCMP
 #
 $CMP AD8675
@@ -20,12 +32,28 @@ $CMP AD8676
 D Ultraprecision, 36 V, 2.8 nV/√HzDual Rail-to-Rail Output Op Amp
 $ENDCMP
 #
+$CMP ADS8363
+D DSxxx3Dual, 1-MSPS,16-, 14-, and 12-Bit, 4×2 or 2×2 Channel,Simultaneous Sampling Analog-to-Digital Converter
+$ENDCMP
+#
+$CMP DAC8562T
+D DACxx6xT Dual 16-, 14-, 12-Bit, Low-Power, Voltage-Output DACs With 2.5-V, 4-PPM/°C Internal Reference, and 5-V TTL I/O
+$ENDCMP
+#
 $CMP ECS-3225SMV
 D SMD MultiVolt Crystal Oscillator Tight Stability
 $ENDCMP
 #
 $CMP INA159
 D Precision, Gain of 0.2 Level Translation DIFFERENCE AMPLIFIER
+$ENDCMP
+#
+$CMP LMH6321
+D LMH6321 300mA High Speed Buffer with Adjustable Current Limit
+$ENDCMP
+#
+$CMP OPA2140
+D OPAx140 High-precision, low-noise, rail-to-rail output, 11-MHz JFET op amp
 $ENDCMP
 #
 #End Doc Library

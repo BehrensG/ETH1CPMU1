@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5324
+D 2.5 V to 5.5 V, 500 μA, Quad Voltage Output 8-/10-/12-Bit DACs in 10-Lead Packages
+$ENDCMP
+#
 $CMP AD5520
 D Per Pin Parametric Measurement Unit/Source Measure Unit
 $ENDCMP

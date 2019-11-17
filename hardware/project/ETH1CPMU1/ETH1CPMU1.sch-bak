@@ -451,4 +451,12 @@ Wire Wire Line
 Connection ~ 5250 3150
 Wire Wire Line
 	7200 4150 6750 4150
+Wire Wire Line
+	6750 4250 7200 4250
+Wire Wire Line
+	7200 4350 6750 4350
+Wire Wire Line
+	6750 4450 7200 4450
+Wire Wire Line
+	7200 4550 6750 4550
 $EndSCHEMATC
