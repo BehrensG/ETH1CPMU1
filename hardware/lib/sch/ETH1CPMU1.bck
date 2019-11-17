@@ -1,7 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5520
+D Per Pin Parametric Measurement Unit/Source Measure Unit
+$ENDCMP
+#
 $CMP AD5791
 D 1 ppm 20-Bit, ±1 LSB INL, Voltage Output DAC
+$ENDCMP
+#
+$CMP AD8010
+D 200 mA Output Current High-Speed Amplifier
 $ENDCMP
 #
 $CMP AD8675
@@ -10,6 +18,14 @@ $ENDCMP
 #
 $CMP AD8676
 D Ultraprecision, 36 V, 2.8 nV/√HzDual Rail-to-Rail Output Op Amp
+$ENDCMP
+#
+$CMP ECS-3225SMV
+D SMD MultiVolt Crystal Oscillator Tight Stability
+$ENDCMP
+#
+$CMP INA159
+D Precision, Gain of 0.2 Level Translation DIFFERENCE AMPLIFIER
 $ENDCMP
 #
 #End Doc Library

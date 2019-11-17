@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 14
+Sheet 8 14
 Title ""
 Date ""
 Rev ""
@@ -450,9 +450,9 @@ $EndComp
 Wire Wire Line
 	4200 3450 4250 3450
 Wire Wire Line
-	750  6100 750  6050
+	750  6000 750  5950
 Wire Wire Line
-	750  6400 750  6450
+	750  6300 750  6350
 $Comp
 L ETH1CPMU1:-15VF #PWR0916
 U 1 1 5DFDE426
@@ -562,12 +562,12 @@ $EndComp
 $Comp
 L Device:C C910
 U 1 1 5DFDE3EA
-P 750 6250
-F 0 "C910" H 865 6296 50  0000 L CNN
-F 1 "10u" H 865 6205 50  0000 L CNN
-F 2 "" H 788 6100 50  0001 C CNN
-F 3 "~" H 750 6250 50  0001 C CNN
-	1    750  6250
+P 750 6150
+F 0 "C910" H 865 6196 50  0000 L CNN
+F 1 "10u" H 865 6105 50  0000 L CNN
+F 2 "" H 788 6000 50  0001 C CNN
+F 3 "~" H 750 6150 50  0001 C CNN
+	1    750  6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1243,7 +1243,7 @@ Wire Wire Line
 Connection ~ 5200 7450
 Wire Wire Line
 	5200 7450 5450 7450
-NoConn ~ 1900 1700
+NoConn ~ 2150 1700
 $Comp
 L Device:R_POT_TRIM RV901
 U 1 1 5E236BDD
