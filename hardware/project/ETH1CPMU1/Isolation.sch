@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 15 15
 Title ""
 Date ""
 Rev ""
@@ -116,7 +116,7 @@ U 1 1 5DDB7F1A
 P 4750 1300
 F 0 "C1301" H 4865 1346 50  0000 L CNN
 F 1 "100n" H 4865 1255 50  0000 L CNN
-F 2 "" H 4788 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4788 1150 50  0001 C CNN
 F 3 "~" H 4750 1300 50  0001 C CNN
 	1    4750 1300
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 5DDC10CB
 P 6250 1350
 F 0 "C1302" H 6365 1396 50  0000 L CNN
 F 1 "100n" H 6365 1305 50  0000 L CNN
-F 2 "" H 6288 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 1200 50  0001 C CNN
 F 3 "~" H 6250 1350 50  0001 C CNN
 	1    6250 1350
 	1    0    0    -1  
@@ -166,19 +166,19 @@ F 3 "" H 6250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 4750 2900 0    50   Input ~ 0
-MAIN_GPIO_OUT1
+MCU1_GPIO_OUT1
 Text HLabel 4750 2700 0    50   Input ~ 0
-MAIN_~MSS
+MCU1_~MSS
 Text HLabel 4750 2600 0    50   Output ~ 0
-MAIN_MISO
+MCU1_MISO
 Text HLabel 4750 2500 0    50   Input ~ 0
-MAIN_MOSI
+MCU1_MOSI
 Text HLabel 4750 2400 0    50   Input ~ 0
-MAIN_MCLK
+MCU1_MCLK
 Text HLabel 4750 3100 0    50   Output ~ 0
-MAIN_STATUS_IN
+MCU1_STATUS_IN
 Text HLabel 4750 3000 0    50   Input ~ 0
-MAIN_GPIO_OUT2
+MCU1_GPIO_OUT2
 Wire Wire Line
 	4750 3100 4800 3100
 Wire Wire Line
@@ -194,19 +194,19 @@ Wire Wire Line
 Wire Wire Line
 	4750 2400 4800 2400
 Text HLabel 6250 2700 2    50   Output ~ 0
-SECOND_~SSS
+MCU2_~SSS
 Text HLabel 6250 2600 2    50   Input ~ 0
-SECOND_MISO
+MCU2_MISO
 Text HLabel 6250 2500 2    50   Output ~ 0
-SECOND_MOSI
+MCU2_MOSI
 Text HLabel 6250 2400 2    50   Output ~ 0
-SECOND_SCLK
+MCU2_SCLK
 Text HLabel 6250 2900 2    50   Output ~ 0
-SECOND_GPIO_OUT1
+MCU2_GPIO_OUT1
 Text HLabel 6250 3100 2    50   Input ~ 0
-SECOND_STATUS_IN
+MCU2_STATUS_IN
 Text HLabel 6250 3000 2    50   Output ~ 0
-SECOND_GPIO_OUT2
+MCU2_GPIO_OUT2
 Wire Wire Line
 	6250 2400 6200 2400
 Wire Wire Line

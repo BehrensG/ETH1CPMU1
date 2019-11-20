@@ -4,6 +4,10 @@ $CMP AD5324
 D 2.5 V to 5.5 V, 500 μA, Quad Voltage Output 8-/10-/12-Bit DACs in 10-Lead Packages
 $ENDCMP
 #
+$CMP AD545x
+D 8-/10-/12-/14-Bit High BandwidthMultiplying DACs with Serial Interface
+$ENDCMP
+#
 $CMP AD5520
 D Per Pin Parametric Measurement Unit/Source Measure Unit
 $ENDCMP
@@ -50,6 +54,10 @@ $ENDCMP
 #
 $CMP LMH6321
 D LMH6321 300mA High Speed Buffer with Adjustable Current Limit
+$ENDCMP
+#
+$CMP LT1468
+D 90MHz, 22V/μs16-Bit Accurate Operational Amplifier
 $ENDCMP
 #
 $CMP OPA2140
