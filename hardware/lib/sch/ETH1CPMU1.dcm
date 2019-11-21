@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 7448013501
+D WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
+$ENDCMP
+#
 $CMP AD5324
 D 2.5 V to 5.5 V, 500 μA, Quad Voltage Output 8-/10-/12-Bit DACs in 10-Lead Packages
 $ENDCMP
@@ -66,6 +70,14 @@ $ENDCMP
 #
 $CMP OPA2140
 D OPAx140 High-precision, low-noise, rail-to-rail output, 11-MHz JFET op amp
+$ENDCMP
+#
+$CMP THL15-2415WI
+D 24VDC/625mA THL 15WI Series, 15 Watt
+$ENDCMP
+#
+$CMP THL15WI_Single
+D THL 15WI Series, 15 Watt
 $ENDCMP
 #
 $CMP TQ2SA-5V
