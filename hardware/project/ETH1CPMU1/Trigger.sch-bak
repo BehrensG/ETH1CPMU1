@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ETH1CPMU1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -122,26 +121,6 @@ $EndComp
 Wire Wire Line
 	8450 5450 8650 5450
 $Comp
-L Diode:BAV99 D1202
-U 1 1 5D1E5B75
-P 7950 5250
-F 0 "D1202" V 7904 5328 50  0000 L CNN
-F 1 "BAV99" V 7995 5328 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 5100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7950 5350 50  0001 C CNN
-	1    7950 5250
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	8150 5450 7950 5450
-Wire Wire Line
-	7950 5450 7950 5400
-Wire Wire Line
-	7950 5450 7950 5500
-Connection ~ 7950 5450
-Wire Wire Line
-	7950 6100 7950 5800
-$Comp
 L Device:D_Zener D1201
 U 1 1 5D1F1550
 P 8550 4800
@@ -156,8 +135,6 @@ Wire Wire Line
 	8550 4650 8550 4600
 Wire Wire Line
 	8550 4600 7950 4600
-Wire Wire Line
-	7950 4600 7950 5100
 $Comp
 L Device:R R1201
 U 1 1 5D1F8BEC
@@ -174,8 +151,6 @@ Wire Wire Line
 Connection ~ 7950 4600
 Wire Wire Line
 	7950 4200 7950 4250
-Wire Wire Line
-	7950 5450 7350 5450
 $Comp
 L 74xx_IEEE:74125 U1201
 U 4 1 5D218310
@@ -268,7 +243,6 @@ F 3 "~" H 7050 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 5450 7350 5450
-Connection ~ 7350 5450
 Wire Wire Line
 	6100 4900 6100 4850
 Wire Wire Line
@@ -464,17 +438,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3450 5200 3450
 NoConn ~ 4200 3550
-$Comp
-L Diode:BAV99 D1202
-U 2 1 5D1E5E77
-P 7950 5650
-F 0 "D1202" V 7904 5728 50  0000 L CNN
-F 1 "BAV99" V 7995 5728 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 5500 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7950 5750 50  0001 C CNN
-	2    7950 5650
-	0    -1   1    0   
-$EndComp
 $Comp
 L power:+3.3V #PWR01207
 U 1 1 5EBBBCC5
@@ -728,4 +691,25 @@ F 3 "" H 5650 7200 50  0001 C CNN
 	1    5650 7200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Diode:BAV99 D1001
+U 1 1 5DD77A27
+P 7950 5450
+F 0 "D1001" V 8200 5100 50  0000 L CNN
+F 1 "BAV99" V 8100 5050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 4950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7950 5450 50  0001 C CNN
+	1    7950 5450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7750 5450 7350 5450
+Connection ~ 7350 5450
+Wire Wire Line
+	8150 5450 7750 5450
+Connection ~ 7750 5450
+Wire Wire Line
+	7950 4600 7950 5150
+Wire Wire Line
+	7950 5750 7950 6100
 $EndSCHEMATC

@@ -36,6 +36,10 @@ $CMP AD8676
 D Ultraprecision, 36 V, 2.8 nV/√HzDual Rail-to-Rail Output Op Amp
 $ENDCMP
 #
+$CMP ADS7818
+D 12-Bit High Speed Low Power Sampling ANALOG-TO-DIGITAL CONVERTER
+$ENDCMP
+#
 $CMP ADS8363
 D DSxxx3Dual, 1-MSPS,16-, 14-, and 12-Bit, 4×2 or 2×2 Channel,Simultaneous Sampling Analog-to-Digital Converter
 $ENDCMP
@@ -62,6 +66,10 @@ $ENDCMP
 #
 $CMP OPA2140
 D OPAx140 High-precision, low-noise, rail-to-rail output, 11-MHz JFET op amp
+$ENDCMP
+#
+$CMP TQ2SA-5V
+D 5 mm Low profile, 2 Form C and 2 A (surfacemount type) relays
 $ENDCMP
 #
 #End Doc Library
