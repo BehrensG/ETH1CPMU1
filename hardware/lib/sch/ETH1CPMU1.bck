@@ -1,11 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AD5324
-D 2.5 V to 5.5 V, 500 μA, Quad Voltage Output 8-/10-/12-Bit DACs in 10-Lead Packages
+$CMP 7448013501
+D WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
 $ENDCMP
 #
-$CMP AD5450
-D 8-Bit High BandwidthMultiplying DACs with Serial Interface
+$CMP AD5324
+D 2.5 V to 5.5 V, 500 μA, Quad Voltage Output 8-/10-/12-Bit DACs in 10-Lead Packages
 $ENDCMP
 #
 $CMP AD545x
@@ -40,6 +40,10 @@ $CMP AD8676
 D Ultraprecision, 36 V, 2.8 nV/√HzDual Rail-to-Rail Output Op Amp
 $ENDCMP
 #
+$CMP ADS7818
+D 12-Bit High Speed Low Power Sampling ANALOG-TO-DIGITAL CONVERTER
+$ENDCMP
+#
 $CMP ADS8363
 D DSxxx3Dual, 1-MSPS,16-, 14-, and 12-Bit, 4×2 or 2×2 Channel,Simultaneous Sampling Analog-to-Digital Converter
 $ENDCMP
@@ -60,8 +64,24 @@ $CMP LMH6321
 D LMH6321 300mA High Speed Buffer with Adjustable Current Limit
 $ENDCMP
 #
+$CMP LT1468
+D 90MHz, 22V/μs16-Bit Accurate Operational Amplifier
+$ENDCMP
+#
 $CMP OPA2140
 D OPAx140 High-precision, low-noise, rail-to-rail output, 11-MHz JFET op amp
+$ENDCMP
+#
+$CMP THL15-2415WI
+D 24VDC/625mA THL 15WI Series, 15 Watt
+$ENDCMP
+#
+$CMP THL15WI_Single
+D THL 15WI Series, 15 Watt
+$ENDCMP
+#
+$CMP TQ2SA-5V
+D 5 mm Low profile, 2 Form C and 2 A (surfacemount type) relays
 $ENDCMP
 #
 #End Doc Library

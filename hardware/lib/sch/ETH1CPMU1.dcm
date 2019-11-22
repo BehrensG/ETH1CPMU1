@@ -80,6 +80,10 @@ $CMP THL15WI_Single
 D THL 15WI Series, 15 Watt
 $ENDCMP
 #
+$CMP THS6012
+D 500-mA DUAL DIFFERENTIAL LINE DRIVER
+$ENDCMP
+#
 $CMP TQ2SA-5V
 D 5 mm Low profile, 2 Form C and 2 A (surfacemount type) relays
 $ENDCMP
