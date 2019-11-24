@@ -997,7 +997,7 @@ Wire Wire Line
 Wire Wire Line
 	14300 3700 14350 3700
 Text HLabel 2850 6200 0    50   Output ~ 0
-DAC_DIN
+DAC_SDIN
 Text HLabel 2850 6000 0    50   Output ~ 0
 DAC_SCLK
 Text HLabel 14350 3000 2    50   Output ~ 0

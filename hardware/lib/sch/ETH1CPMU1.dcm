@@ -82,6 +82,10 @@ $CMP DAC8562T
 D DACxx6xT Dual 16-, 14-, 12-Bit, Low-Power, Voltage-Output DACs With 2.5-V, 4-PPM/°C Internal Reference, and 5-V TTL I/O
 $ENDCMP
 #
+$CMP DG408DY
+D 8-Ch High-Performance CMOS Analog Multiplexers
+$ENDCMP
+#
 $CMP ECS-3225SMV
 D SMD MultiVolt Crystal Oscillator Tight Stability
 $ENDCMP

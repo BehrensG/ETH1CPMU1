@@ -433,17 +433,17 @@ Wire Wire Line
 NoConn ~ 13350 4000
 NoConn ~ 13350 3900
 Wire Wire Line
-	1050 2150 550  2150
-Text Label 550  2150 0    50   ~ 0
+	13350 2500 13850 2500
+Text Label 13850 2500 2    50   ~ 0
 EEPROM_WP
-Text Label 550  2050 0    50   ~ 0
+Text Label 13850 2600 2    50   ~ 0
 EEPROM_SCL
-Text Label 550  1950 0    50   ~ 0
+Text Label 13850 2700 2    50   ~ 0
 EEPROM_SDA
 Wire Wire Line
-	1050 1950 550  1950
+	13350 2700 13850 2700
 Wire Wire Line
-	1050 2050 550  2050
+	13350 2600 13850 2600
 Wire Wire Line
 	2050 3300 1600 3300
 Text Label 1600 3300 0    50   ~ 0
@@ -511,4 +511,273 @@ F 3 "" H 1000 3050 50  0001 C CNN
 	1    7700 3650
 	1    0    0    -1  
 $EndComp
+Text HLabel 13400 2100 2    50   Output ~ 0
+DDS_FGEN_~FSYNC
+Text HLabel 2000 3000 0    50   Output ~ 0
+DDS_FGEN_SDATA
+Text HLabel 13400 2000 2    50   Output ~ 0
+DDS_FGEN_SCLK
+Wire Wire Line
+	13400 2000 13350 2000
+Wire Wire Line
+	2000 3000 2050 3000
+NoConn ~ 2050 3200
+Text HLabel 13400 3100 2    50   Output ~ 0
+DDS_MDAC_~SYNC
+Text HLabel 13400 3200 2    50   Output ~ 0
+DDS_MDAC_SCLK
+Text HLabel 2000 2100 0    50   Output ~ 0
+DDS_MDAC_DIN
+Wire Wire Line
+	13400 3200 13350 3200
+Wire Wire Line
+	2000 2100 2050 2100
+Wire Wire Line
+	13400 3100 13350 3100
+Text HLabel 13400 3000 2    50   Output ~ 0
+DDS_MEAS_CLK
+Text HLabel 13400 2900 2    50   Output ~ 0
+DDS_MEAS_CONV
+Text HLabel 2000 4000 0    50   Output ~ 0
+DDS_MEAS_DATA
+Wire Wire Line
+	2000 4000 2050 4000
+Wire Wire Line
+	13400 3000 13350 3000
+Wire Wire Line
+	13400 2900 13350 2900
+Wire Wire Line
+	13400 2100 13350 2100
+Text HLabel 2000 3500 0    50   Output ~ 0
+DDS_DAC_~SYNC
+Text HLabel 2000 2500 0    50   Output ~ 0
+DDS_DAC_SCLK
+Text HLabel 2000 2700 0    50   Output ~ 0
+DDS_DAC_SDIN
+Wire Wire Line
+	2000 2500 2050 2500
+Wire Wire Line
+	2000 2700 2050 2700
+NoConn ~ 2050 3900
+Wire Wire Line
+	2050 4800 2000 4800
+Wire Wire Line
+	2050 4900 2000 4900
+Wire Wire Line
+	2050 4700 2000 4700
+Text HLabel 2000 4700 0    50   Input ~ 0
+MCU3_SCLK
+Text HLabel 2000 4800 0    50   Output ~ 0
+MCU3_MISO
+Text HLabel 2000 4900 0    50   Input ~ 0
+MCU3_MOSI
+Wire Wire Line
+	2050 2400 2000 2400
+Text HLabel 2000 2400 0    50   Input ~ 0
+MCU3_NSS
+Text HLabel 2000 2300 0    50   Output ~ 0
+DDS_DAC_~RESET
+Text HLabel 2000 2200 0    50   Output ~ 0
+DDS_DAC_~LDAC
+Text HLabel 2000 2000 0    50   Output ~ 0
+DDS_DAC_RSTSEL
+Wire Wire Line
+	2000 3500 2050 3500
+Wire Wire Line
+	2000 2300 2050 2300
+Wire Wire Line
+	2000 2200 2050 2200
+Wire Wire Line
+	2000 2000 2050 2000
+NoConn ~ 2050 3100
+Text HLabel 2000 4400 0    50   Output ~ 0
+DDS_MEAS_A0
+Text HLabel 2000 4500 0    50   Output ~ 0
+DDS_MEAS_A1
+Text HLabel 2000 4600 0    50   Output ~ 0
+DDS_MEAS_A2
+Wire Wire Line
+	2000 4600 2050 4600
+Wire Wire Line
+	2050 4500 2000 4500
+Wire Wire Line
+	2000 4400 2050 4400
+Text HLabel 2000 2800 0    50   Output ~ 0
+DDS_FGEN_PSEL0
+Text HLabel 2000 2900 0    50   Output ~ 0
+DDS_FGEN_PSEL1
+Text HLabel 2000 2600 0    50   Input ~ 0
+DDS_DAC_SDO
+Wire Wire Line
+	2000 2600 2050 2600
+Wire Wire Line
+	2000 2900 2050 2900
+Wire Wire Line
+	2050 2800 2000 2800
+Text HLabel 13400 2200 2    50   Output ~ 0
+DDS_FGEN_FSELECT
+Wire Wire Line
+	13400 2200 13350 2200
+NoConn ~ 13350 2300
+NoConn ~ 13350 2400
+NoConn ~ 13350 2800
+NoConn ~ 13350 3300
+NoConn ~ 13350 3400
+NoConn ~ 2050 5000
+NoConn ~ 2050 5200
+NoConn ~ 2050 4300
+NoConn ~ 2050 4200
+NoConn ~ 2050 4100
+NoConn ~ 2050 3800
+NoConn ~ 2050 3700
+$Comp
+L Device:C C1405
+U 1 1 5E0C93AD
+P 950 10500
+F 0 "C1405" H 1065 10546 50  0000 L CNN
+F 1 "100n" H 1065 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 988 10350 50  0001 C CNN
+F 3 "~" H 950 10500 50  0001 C CNN
+	1    950  10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1406
+U 1 1 5E0CAC52
+P 1450 10500
+F 0 "C1406" H 1565 10546 50  0000 L CNN
+F 1 "100n" H 1565 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1488 10350 50  0001 C CNN
+F 3 "~" H 1450 10500 50  0001 C CNN
+	1    1450 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1407
+U 1 1 5E0CAEC5
+P 1950 10500
+F 0 "C1407" H 2065 10546 50  0000 L CNN
+F 1 "100n" H 2065 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 10350 50  0001 C CNN
+F 3 "~" H 1950 10500 50  0001 C CNN
+	1    1950 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1408
+U 1 1 5E0CB1FC
+P 2450 10500
+F 0 "C1408" H 2565 10546 50  0000 L CNN
+F 1 "100n" H 2565 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2488 10350 50  0001 C CNN
+F 3 "~" H 2450 10500 50  0001 C CNN
+	1    2450 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1409
+U 1 1 5E0CB50D
+P 2950 10500
+F 0 "C1409" H 3065 10546 50  0000 L CNN
+F 1 "100n" H 3065 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2988 10350 50  0001 C CNN
+F 3 "~" H 2950 10500 50  0001 C CNN
+	1    2950 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1410
+U 1 1 5E0CB78E
+P 3450 10500
+F 0 "C1410" H 3565 10546 50  0000 L CNN
+F 1 "100n" H 3565 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 10350 50  0001 C CNN
+F 3 "~" H 3450 10500 50  0001 C CNN
+	1    3450 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  10350 950  10300
+Wire Wire Line
+	3450 10300 3450 10350
+Wire Wire Line
+	2950 10350 2950 10300
+Connection ~ 2950 10300
+Wire Wire Line
+	2950 10300 3450 10300
+Wire Wire Line
+	950  10300 1450 10300
+Wire Wire Line
+	2450 10350 2450 10300
+Connection ~ 2450 10300
+Wire Wire Line
+	2450 10300 2950 10300
+Wire Wire Line
+	1950 10350 1950 10300
+Connection ~ 1950 10300
+Wire Wire Line
+	1950 10300 2200 10300
+Wire Wire Line
+	1450 10350 1450 10300
+Connection ~ 1450 10300
+Wire Wire Line
+	1450 10300 1950 10300
+Wire Wire Line
+	950  10650 950  10700
+Wire Wire Line
+	950  10700 1450 10700
+Wire Wire Line
+	3450 10700 3450 10650
+Wire Wire Line
+	2950 10650 2950 10700
+Connection ~ 2950 10700
+Wire Wire Line
+	2950 10700 3450 10700
+Wire Wire Line
+	2450 10650 2450 10700
+Connection ~ 2450 10700
+Wire Wire Line
+	2450 10700 2950 10700
+Wire Wire Line
+	1950 10650 1950 10700
+Connection ~ 1950 10700
+Wire Wire Line
+	1950 10700 2200 10700
+Wire Wire Line
+	1450 10650 1450 10700
+Connection ~ 1450 10700
+Wire Wire Line
+	1450 10700 1950 10700
+$Comp
+L ETH1CPMU1:DGNDF #PWR?
+U 1 1 5E107792
+P 2200 10750
+F 0 "#PWR?" H 2200 10500 50  0001 C CNN
+F 1 "DGNDF" H 2205 10577 50  0000 C CNN
+F 2 "" H 2200 10750 50  0001 C CNN
+F 3 "" H 2200 10750 50  0001 C CNN
+	1    2200 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 10750 2200 10700
+Connection ~ 2200 10700
+Wire Wire Line
+	2200 10700 2450 10700
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5E10E793
+P 2200 10250
+F 0 "#PWR?" H 2350 10200 50  0001 C CNN
+F 1 "+3.3VP" H 2220 10393 50  0000 C CNN
+F 2 "" H 2200 10250 50  0001 C CNN
+F 3 "" H 2200 10250 50  0001 C CNN
+	1    2200 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 10250 2200 10300
+Connection ~ 2200 10300
+Wire Wire Line
+	2200 10300 2450 10300
 $EndSCHEMATC
