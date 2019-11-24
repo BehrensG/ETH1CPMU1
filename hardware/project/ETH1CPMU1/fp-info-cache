@@ -1,4 +1,4 @@
-16932265586727349
+16948008834577349
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46025,6 +46025,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ETH1CPMU1
+7448013501
+WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
+
+0
+4
+4
+ETH1CPMU1
 744031004
 WE-TPC SMD Shielded Tiny Power Inductor
 
@@ -46060,12 +46067,26 @@ COUPLED INDUCTOR  WE-TDC 8038
 4
 4
 ETH1CPMU1
+CW252016
+CW252016 Series - High Q Chip Inductors
+
+0
+2
+2
+ETH1CPMU1
 DO_214AA_REV
 
 
 0
 2
 2
+ETH1CPMU1
+ECS
+
+
+0
+4
+4
 ETH1CPMU1
 Fuse_SMD2920
 MF-LSMFSeries-PTCResettableFuses
@@ -46102,12 +46123,33 @@ Adjustable Output 3-Amp DOSA-SMT DC/DC Converters
 5
 5
 ETH1CPMU1
+PowerPAD
+
+
+0
+49
+21
+ETH1CPMU1
 SA
 LOW-PROFILE SURFACE-MOUNT RELAY
 
 0
 10
 10
+ETH1CPMU1
+SO8E
+module CMS SOJ 8 pins etroit
+CMS SOJ
+0
+8
+8
+ETH1CPMU1
+Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows
+
+
+0
+66
+65
 ETH1CPMU1
 TCK-141
 Inductor
@@ -46116,12 +46158,40 @@ Inductor
 2
 2
 ETH1CPMU1
+THL15
+THL 15WI Series, 15 Watt
+
+0
+6
+6
+ETH1CPMU1
+TO-252-2_Rectifier
+TO-252-2
+TO-252-2 Rectifier
+0
+3
+3
+ETH1CPMU1
 TQFP-144_20x20mm_P0.5mm
 TQFP, 144 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_qfp_generator.py
 TQFP QFP
 0
 144
 144
+ETH1CPMU1
+TSR1
+DC/DC Converter TSR 1 Series, 1 A
+
+0
+3
+3
+ETH1CPMU1
+TSR2
+DC/DC Converter TSR 2 Series, 2 A
+
+0
+3
+3
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

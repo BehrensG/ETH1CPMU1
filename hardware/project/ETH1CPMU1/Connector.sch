@@ -123,8 +123,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 1850 5200 1850
 Wire Wire Line
-	5200 1850 5200 1800
-Wire Wire Line
 	5200 1750 5250 1750
 Wire Wire Line
 	5250 2050 5200 2050
@@ -149,15 +147,10 @@ Connection ~ 5200 2000
 Wire Wire Line
 	5200 2000 5200 1950
 Wire Wire Line
-	5200 1800 5000 1800
-Wire Wire Line
 	5200 1600 5000 1600
 Connection ~ 5200 1600
 Wire Wire Line
 	5200 1600 5200 1550
-Connection ~ 5200 1800
-Wire Wire Line
-	5200 1800 5200 1750
 Wire Wire Line
 	5200 1400 5000 1400
 Wire Wire Line
@@ -271,10 +264,18 @@ Text HLabel 5000 1400 0    50   BiDi ~ 0
 B
 Text HLabel 5000 1600 0    50   BiDi ~ 0
 C
-Text HLabel 5000 1800 0    50   BiDi ~ 0
-D
 Text HLabel 5000 2000 0    50   BiDi ~ 0
 E
 Text HLabel 5000 2200 0    50   BiDi ~ 0
 F
+NoConn ~ 5250 5350
+NoConn ~ 5250 5450
+NoConn ~ 5250 5550
+NoConn ~ 5250 5650
+NoConn ~ 5250 5750
+NoConn ~ 5250 5850
+NoConn ~ 5250 5950
+NoConn ~ 5250 6050
+Wire Wire Line
+	5200 1750 5200 1850
 $EndSCHEMATC
