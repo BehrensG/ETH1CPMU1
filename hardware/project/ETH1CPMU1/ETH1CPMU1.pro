@@ -1,4 +1,4 @@
-update=Sat Nov 23 23:46:26 2019
+update=Sun Dec  1 16:49:49 2019
 version=1
 last_client=kicad
 [general]
@@ -26,15 +26,15 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=4
+CopperLayerCount=6
 BoardThickness=1.55
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2
+MinTrackWidth=0.09999999999999999
 MinViaDiameter=0.4
-MinViaDrill=0.3
+MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
@@ -77,17 +77,17 @@ Name=Power
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=GND
+Name=Power+GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=In3.Cu
+Name=Signal_internal
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In4.Cu]
-Name=In4.Cu
-Type=0
-Enabled=0
+Name=GND
+Type=1
+Enabled=1
 [pcbnew/Layer.In5.Cu]
 Name=In5.Cu
 Type=0
@@ -241,6 +241,17 @@ Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Signals
+Clearance=0.127
+TrackWidth=0.127
+ViaDiameter=0.4
+ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
