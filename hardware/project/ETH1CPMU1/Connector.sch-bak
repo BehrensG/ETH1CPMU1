@@ -147,7 +147,7 @@ Connection ~ 5200 2000
 Wire Wire Line
 	5200 2000 5200 1950
 Wire Wire Line
-	5200 1600 5000 1600
+	5200 1600 5100 1600
 Connection ~ 5200 1600
 Wire Wire Line
 	5200 1600 5200 1550
@@ -277,5 +277,15 @@ NoConn ~ 5250 5850
 NoConn ~ 5250 5950
 NoConn ~ 5250 6050
 Wire Wire Line
-	5200 1750 5200 1850
+	5200 1750 5200 1800
+Wire Wire Line
+	5200 1800 5100 1800
+Wire Wire Line
+	5100 1800 5100 1600
+Connection ~ 5200 1800
+Wire Wire Line
+	5200 1800 5200 1850
+Connection ~ 5100 1600
+Wire Wire Line
+	5100 1600 5000 1600
 $EndSCHEMATC
