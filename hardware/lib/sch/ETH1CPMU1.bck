@@ -106,6 +106,14 @@ $CMP OPA2140
 D OPAx140 High-precision, low-noise, rail-to-rail output, 11-MHz JFET op amp
 $ENDCMP
 #
+$CMP OPA602
+D High-Speed Precision Difet OPERATIONAL AMPLIFIER
+$ENDCMP
+#
+$CMP PGA103
+D PGA Programmable  Gain Amplifier G=1, 10, 100 V/V
+$ENDCMP
+#
 $CMP THL15-2415WI
 D 24VDC/625mA THL 15WI Series, 15 Watt
 $ENDCMP

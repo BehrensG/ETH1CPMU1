@@ -1,6 +1,6 @@
-(module TCK-141 (layer F.Cu) (tedit 5DD9A541)
+(module TCK-141 (layer F.Cu) (tedit 5DEC2A09)
   (descr Inductor)
-  (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -3) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.12)))
   )
   (fp_text value TCK-141 (at 0 -0.5) (layer F.Fab)

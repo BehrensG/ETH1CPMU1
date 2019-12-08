@@ -1,4 +1,4 @@
-16948017284626349
+16949600754483349
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46139,6 +46139,13 @@ LOW-PROFILE SURFACE-MOUNT RELAY
 ETH1CPMU1
 SO8E
 module CMS SOJ 8 pins etroit
+CMS SOJ
+0
+8
+8
+ETH1CPMU1
+SO8N
+Module CMS SOJ 8 pins large
 CMS SOJ
 0
 8
