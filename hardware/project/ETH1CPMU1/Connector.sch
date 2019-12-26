@@ -146,8 +146,6 @@ Wire Wire Line
 Connection ~ 5200 2000
 Wire Wire Line
 	5200 2000 5200 1950
-Wire Wire Line
-	5200 1600 5100 1600
 Connection ~ 5200 1600
 Wire Wire Line
 	5200 1600 5200 1550
@@ -207,18 +205,6 @@ Wire Wire Line
 	5200 4400 5200 4450
 NoConn ~ 5250 4550
 NoConn ~ 5250 4650
-NoConn ~ 5250 2350
-NoConn ~ 5250 2450
-NoConn ~ 5250 2550
-NoConn ~ 5250 2650
-NoConn ~ 5250 2750
-NoConn ~ 5250 2850
-NoConn ~ 5250 2950
-NoConn ~ 5250 3050
-NoConn ~ 5250 3150
-NoConn ~ 5250 3250
-NoConn ~ 5250 3350
-NoConn ~ 5250 3450
 NoConn ~ 5250 3550
 NoConn ~ 5250 3650
 NoConn ~ 5250 3750
@@ -277,15 +263,92 @@ NoConn ~ 5250 5850
 NoConn ~ 5250 5950
 NoConn ~ 5250 6050
 Wire Wire Line
+	5000 1600 5200 1600
+Wire Wire Line
 	5200 1750 5200 1800
 Wire Wire Line
-	5200 1800 5100 1800
-Wire Wire Line
-	5100 1800 5100 1600
+	5200 1800 5000 1800
 Connection ~ 5200 1800
 Wire Wire Line
 	5200 1800 5200 1850
-Connection ~ 5100 1600
+Text Label 5000 1800 0    50   ~ 0
+D
 Wire Wire Line
-	5100 1600 5000 1600
+	5250 2450 5200 2450
+Wire Wire Line
+	5200 2450 5200 2400
+Wire Wire Line
+	5200 2350 5250 2350
+Wire Wire Line
+	5200 2400 5000 2400
+Connection ~ 5200 2400
+Wire Wire Line
+	5200 2400 5200 2350
+Text Label 5000 2400 0    50   ~ 0
+G
+Wire Wire Line
+	5250 2650 5200 2650
+Wire Wire Line
+	5200 2650 5200 2600
+Wire Wire Line
+	5200 2550 5250 2550
+Wire Wire Line
+	5200 2600 5000 2600
+Connection ~ 5200 2600
+Wire Wire Line
+	5200 2600 5200 2550
+Text Label 5000 2600 0    50   ~ 0
+I
+Wire Wire Line
+	5250 3450 5200 3450
+Wire Wire Line
+	5200 3450 5200 3400
+Wire Wire Line
+	5200 3350 5250 3350
+Wire Wire Line
+	5250 3250 5200 3250
+Wire Wire Line
+	5200 3250 5200 3200
+Wire Wire Line
+	5200 3150 5250 3150
+Wire Wire Line
+	5250 3050 5200 3050
+Wire Wire Line
+	5200 3050 5200 3000
+Wire Wire Line
+	5200 2950 5250 2950
+Wire Wire Line
+	5250 2850 5200 2850
+Wire Wire Line
+	5200 2850 5200 2800
+Wire Wire Line
+	5200 2750 5250 2750
+Wire Wire Line
+	5200 2800 5000 2800
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 2800 5200 2750
+Wire Wire Line
+	5200 3000 5000 3000
+Connection ~ 5200 3000
+Wire Wire Line
+	5200 3000 5200 2950
+Wire Wire Line
+	5200 3200 5000 3200
+Connection ~ 5200 3200
+Wire Wire Line
+	5200 3200 5200 3150
+Wire Wire Line
+	5200 3400 5000 3400
+Connection ~ 5200 3400
+Wire Wire Line
+	5200 3400 5200 3350
+Text Label 5000 2800 0    50   ~ 0
+J
+Text Label 5000 3000 0    50   ~ 0
+K
+Text Label 5000 3200 0    50   ~ 0
+L
+Text Label 5000 3400 0    50   ~ 0
+M
 $EndSCHEMATC
