@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ETH1CPMU1:STM32H743ZI U1602
-U 1 1 5DD1F48B
-P 9300 5000
-F 0 "U1602" H 3850 8900 50  0000 C CNN
-F 1 "STM32H743ZI" H 14550 8900 50  0000 C CNN
-F 2 "ETH1CPMU1:TQFP-144_20x20mm_P0.5mm" H 25200 6500 50  0001 C CNN
-F 3 "" H 25200 6500 50  0001 C CNN
-	1    9300 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L ETH1CPMU1:+3.3VF #PWR01613
 U 1 1 5DD24561
 P 9300 850
@@ -992,37 +981,31 @@ Text HLabel 3550 4750 0    50   Output ~ 0
 DAC_~SYNC
 Wire Wire Line
 	2200 1350 3600 1350
-Text HLabel 15050 3750 2    50   Output ~ 0
+Text HLabel 15050 7450 2    50   Output ~ 0
 PMU_STANDBY
-Text HLabel 15050 3850 2    50   Output ~ 0
-PMU_~STB
-Text HLabel 15050 3950 2    50   Output ~ 0
-PMU_CPCK
-Text HLabel 15050 4050 2    50   Output ~ 0
-PMU_~MOE
-Text HLabel 15050 4150 2    50   Output ~ 0
-PMU_~CS
-Text HLabel 15050 4250 2    50   Output ~ 0
-PMU_AM0
-Text HLabel 15050 4350 2    50   Output ~ 0
-PMU_AM1
-Text HLabel 15050 4450 2    50   Output ~ 0
-PMU_AM2
-Text HLabel 15050 5350 2    50   Output ~ 0
-PMU_CPSEL
-Text HLabel 15050 5450 2    50   Output ~ 0
-PMU_MSEL
 Text HLabel 15050 5550 2    50   Output ~ 0
-PMU_AC0
+PMU_~STB
+Text HLabel 15050 5350 2    50   Output ~ 0
+PMU_~MOE
+Text HLabel 15050 5450 2    50   Output ~ 0
+PMU_~CS
+Text HLabel 15050 7650 2    50   Output ~ 0
+PMU_AM0
+Text HLabel 15050 6050 2    50   Output ~ 0
+PMU_CPSEL
+Text HLabel 15050 6150 2    50   Output ~ 0
+PMU_MSEL
 Text HLabel 15050 5650 2    50   Output ~ 0
+PMU_AC0
+Text HLabel 15050 5750 2    50   Output ~ 0
 PMU_AC1
-Text HLabel 15050 5750 2    50   Input ~ 0
+Text HLabel 15050 6550 2    50   Input ~ 0
 PMU_CPOH
-Text HLabel 15050 5850 2    50   Input ~ 0
+Text HLabel 3550 2650 0    50   Input ~ 0
 PMU_CPOL
-Text HLabel 15050 5950 2    50   Input ~ 0
+Text HLabel 15050 1250 2    50   Input ~ 0
 PMU_CLHDETECT
-Text HLabel 15050 6050 2    50   Input ~ 0
+Text HLabel 15050 1350 2    50   Input ~ 0
 PMU_CLLDETECT
 Text HLabel 1000 5250 0    50   Output ~ 0
 R_MEASIL
@@ -1037,37 +1020,31 @@ R_GUARDIN
 Text HLabel 1000 5150 0    50   Output ~ 0
 R_GND
 Wire Wire Line
-	15050 3750 15000 3750
+	15050 7450 15000 7450
 Wire Wire Line
-	15050 3850 15000 3850
+	15050 5550 15000 5550
 Wire Wire Line
-	15050 3950 15000 3950
-Wire Wire Line
-	15050 4050 15000 4050
-Wire Wire Line
-	15050 4150 15000 4150
-Wire Wire Line
-	15050 4250 15000 4250
-Wire Wire Line
-	15050 4350 15000 4350
-Wire Wire Line
-	15050 4450 15000 4450
-Wire Wire Line
-	15050 6050 15000 6050
-Wire Wire Line
-	15000 5950 15050 5950
-Wire Wire Line
-	15050 5850 15000 5850
-Wire Wire Line
-	15000 5750 15050 5750
-Wire Wire Line
-	15050 5650 15000 5650
-Wire Wire Line
-	15000 5550 15050 5550
+	15050 5350 15000 5350
 Wire Wire Line
 	15050 5450 15000 5450
 Wire Wire Line
-	15000 5350 15050 5350
+	15050 7650 15000 7650
+Wire Wire Line
+	15050 1350 15000 1350
+Wire Wire Line
+	15000 1250 15050 1250
+Wire Wire Line
+	3550 2650 3600 2650
+Wire Wire Line
+	15000 6550 15050 6550
+Wire Wire Line
+	15050 5750 15000 5750
+Wire Wire Line
+	15000 5650 15050 5650
+Wire Wire Line
+	15050 6150 15000 6150
+Wire Wire Line
+	15000 6050 15050 6050
 Wire Wire Line
 	1000 5050 1050 5050
 Wire Wire Line
@@ -1082,17 +1059,15 @@ Wire Wire Line
 	1050 4850 1000 4850
 NoConn ~ 11200 10450
 NoConn ~ 11200 10550
-Text HLabel 15050 6150 2    50   Output ~ 0
+Text HLabel 15050 6450 2    50   Output ~ 0
 FOURCE_SELECT
 Wire Wire Line
-	15050 6150 15000 6150
+	15050 6450 15000 6450
 NoConn ~ 3600 1550
 NoConn ~ 3600 1650
 NoConn ~ 3600 1750
 NoConn ~ 3600 1850
 NoConn ~ 3600 2550
-NoConn ~ 3600 2650
-NoConn ~ 3600 2750
 NoConn ~ 3600 3250
 NoConn ~ 3600 3350
 NoConn ~ 3600 3450
@@ -1107,21 +1082,16 @@ NoConn ~ 3600 5550
 NoConn ~ 3600 5650
 NoConn ~ 3600 5750
 NoConn ~ 3600 5850
-NoConn ~ 15000 1250
-NoConn ~ 15000 1350
 NoConn ~ 15000 1450
 NoConn ~ 15000 3550
 NoConn ~ 15000 4650
 NoConn ~ 15000 4750
-NoConn ~ 15000 6550
 NoConn ~ 15000 6650
 NoConn ~ 15000 6750
 NoConn ~ 15000 6850
 NoConn ~ 15000 6950
 NoConn ~ 15000 7050
 NoConn ~ 15000 7150
-NoConn ~ 15000 7450
-NoConn ~ 15000 7650
 $Comp
 L ETH1CPMU1:DGNDF #PWR01620
 U 1 1 5E492D3A
@@ -1237,7 +1207,6 @@ Text HLabel 15050 6350 2    50   Output ~ 0
 ADC_CONVST
 Wire Wire Line
 	15050 6350 15000 6350
-NoConn ~ 15000 6450
 NoConn ~ 3600 6050
 NoConn ~ 3600 4450
 NoConn ~ 3600 4250
@@ -1465,4 +1434,35 @@ F 3 "" H 2650 4500 50  0001 C CNN
 	1    2650 4500
 	1    0    0    -1  
 $EndComp
+$Comp
+L ETH1CPMU1:STM32H743ZI U1602
+U 1 1 5DD1F48B
+P 9300 5000
+F 0 "U1602" H 3850 8900 50  0000 C CNN
+F 1 "STM32H743ZI" H 14550 8900 50  0000 C CNN
+F 2 "ETH1CPMU1:TQFP-144_20x20mm_P0.5mm" H 25200 6500 50  0001 C CNN
+F 3 "" H 25200 6500 50  0001 C CNN
+	1    9300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2750 3600 2750
+Text HLabel 3550 2750 0    50   Output ~ 0
+PMU_CPCK
+NoConn ~ 15000 4450
+NoConn ~ 15000 4350
+NoConn ~ 15000 4250
+NoConn ~ 15000 4150
+NoConn ~ 15000 4050
+NoConn ~ 15000 3950
+NoConn ~ 15000 3850
+NoConn ~ 15000 3750
+Wire Wire Line
+	15050 5850 15000 5850
+Wire Wire Line
+	15050 5950 15000 5950
+Text HLabel 15050 5850 2    50   Output ~ 0
+PMU_AM2
+Text HLabel 15050 5950 2    50   Output ~ 0
+PMU_AM1
 $EndSCHEMATC
