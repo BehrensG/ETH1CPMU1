@@ -572,8 +572,8 @@ MCU3_MISO
 Text HLabel 2000 4900 0    50   Input ~ 0
 MCU3_MOSI
 Wire Wire Line
-	2050 2400 2000 2400
-Text HLabel 2000 2400 0    50   Input ~ 0
+	2050 5200 2000 5200
+Text HLabel 2000 5200 0    50   Input ~ 0
 MCU3_NSS
 Text HLabel 2000 2300 0    50   Output ~ 0
 DDS_DAC_~RESET
@@ -624,7 +624,6 @@ NoConn ~ 13350 2800
 NoConn ~ 13350 3300
 NoConn ~ 13350 3400
 NoConn ~ 2050 5000
-NoConn ~ 2050 5200
 NoConn ~ 2050 4200
 NoConn ~ 2050 4100
 NoConn ~ 2050 3800
@@ -820,4 +819,5 @@ Text HLabel 2000 4300 0    50   Output ~ 0
 AC_RELAY
 Wire Wire Line
 	2000 4300 2050 4300
+NoConn ~ 2050 2400
 $EndSCHEMATC
