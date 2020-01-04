@@ -1084,8 +1084,6 @@ NoConn ~ 3600 5750
 NoConn ~ 3600 5850
 NoConn ~ 15000 1450
 NoConn ~ 15000 3550
-NoConn ~ 15000 4650
-NoConn ~ 15000 4750
 NoConn ~ 15000 6650
 NoConn ~ 15000 6750
 NoConn ~ 15000 6850
@@ -1465,4 +1463,12 @@ Text HLabel 15050 5850 2    50   Output ~ 0
 PMU_AM2
 Text HLabel 15050 5950 2    50   Output ~ 0
 PMU_AM1
+Text HLabel 15050 4650 2    50   Output ~ 0
+PGA_MUX1
+Text HLabel 15050 4750 2    50   Output ~ 0
+PGA_MUX2
+Wire Wire Line
+	15000 4750 15050 4750
+Wire Wire Line
+	15050 4650 15000 4650
 $EndSCHEMATC
